@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: "voyage";
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.nav{
+    width: 90%;
+    height: 10%;
+    /* background-color: palevioletred; */
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav > .nav_left {
+    width: 51%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left > .text {
+    width: 50%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+}
+
+.text > h1 {
+    font-size: 45px;
+    color: gold;
+}
+
+.text > p {
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav_left > .start {
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start > i{
+    font-size: 25px;
+    color: white;
+}
+
+.nav > .nav_right {
+    width: 35%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_right > .links{
+    width: 75%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.links > p {
+    font-size: 20px;
+    color: white;
+}
+
+.nav_right > .menu{
+    width: 10%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > i{
+    font-size: 30px;
+    color: white;
+}
+
+.page {
+    width: 100%;
+    height: 70%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.page > .center_img {
+    width: 350px;
+    height: 520px;
+    /* background-color: antiquewhite; */
+    border-radius: 180px 180px 180px 180px;
+    position: absolute;
+    left: 38%;
+    border: 2px solid white;
+}
+
+.main_img {
+    width: 310px;
+    height: 480px;
+    /* background-color: red; */
+    border-radius: 180px 180px 180px 180px;
+    position: absolute;
+    top: 3.8%;
+    left: 5.5%;
+    background-image: url(./main-light.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 5px solid white; */
+}
+
+.page > .top_img {
+    width: 8%;
+    height: 23%;
+    /* background-color: red; */
+    border-radius: 50% 50% 0% 0%;
+    background-image: url(./left.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+}
+
+
+.page > .text_left {
+    width: 30%;
+    height: 50%;
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    /* background-color: lightcyan; */
+}
+
+.text_left > h4 {
+    font-size: 90px;
+    font-weight: 500;
+    color: gold;
+}
+
+.page > .text_bottom {
+    width: 20%;
+    height: 25%;
+    /* background-color: pink; */
+    position: absolute;
+    top: 58%;
+    left: 62%;
+}
+
+.text_bottom > p {
+    font-size: 120px;
+    font-weight: 500;
+    color: gold;
+    margin-left: 40px;
+}
+
+.text_bottom > p > .comma {
+    position: absolute;
+    top: -60%;
+    left: 3%;
+    /* margin-right:  -900px; */
+    /* background-color: antiquewhite;  */
+}
+
+.page > .text_right{
+    width: 20%;
+    height: 40%;
+    /* background-color: red; */
+    position: absolute;
+    top: 23%;
+    left: 77%;
+}
+
+.text_right > h6{
+    font-size: 35px;
+    font-weight: 500;
+    color: gold;
+    padding-bottom: 7px;
+}
+
+.text_right > p{
+    font-size: 15px;
+    /* font-weight: 500; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.page > .btn{
+    width: 15%;
+    height: 15%;
+    /* background-color: beige; */
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    gap: 10px;
+}
+
+.btn > button {
+    font-size: 20px;
+    padding: 8% 10%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.564);
+    border-radius: 55%;
+    margin-left: 25px;
+    color: gold;
+}
+
+.footer {
+    width: 100%;
+    height: 16%;
+    overflow: hidden;
+    color: white;
+    margin-top: 2%;
+    /* background-color: olive; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer > h6{
+    font-size: 20px;
+}
+
+.footer > p{
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main > .scroll {
+    position: absolute;
+    top: 76%;
+    /* bottom: 30%; */
+    right: -8%;
+    display: flex;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.scroll > p {
+    margin-right: 10px;
+    font-size: 26px;
+    color: white;
+}
